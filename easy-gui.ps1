@@ -114,7 +114,7 @@ $Gui.add_Load($OnLoadForm_StateCorrection)
 
 #Show the Form
 
-$Gui.ShowDialog()| $script = Read-Host 'script:'
+$script = $Gui.ShowDialog()| Read-Host 'script:'
 
 } #End Function
 
